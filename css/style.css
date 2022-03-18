@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.language-usd {
+  background-color: #2f333a;
+  display: flex;
+  height: 50px;
+}
+.language-usd button {
+  background-color: #2f333a;
+  border: none;
+  color: #fff;
+  width: 140px;
+  font-size: 14px;
+}
+
+.language-usd p {
+  color: #ff7004;
+  padding-right: 650px;
+  padding-left: 150px;
+  padding-top: 10px;
+  font-style: oblique;
+}
+.language-usd hr {
+  height: 19px;
+  margin: 15px 0px;
+  border-color: rgb(71, 66, 66);
+}
+.search p {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #2f333a;
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-right: 800px;
+}
+.search {
+  display: flex;
+}
+.search i {
+  font-size: 25px;
+  color: #2f333a;
+  padding: 20px;
+  margin-top: 10px;
+}
+.search hr {
+  height: 20px;
+  margin-top: 30px;
+}
+.menu {
+  background-color: #e2e2e2;
+  height: 22px;
+  display: flex;
+  padding: 18px;
+  padding-left: 421px;
+}
+.menu button {
+  background-color: #e2e2e2;
+  border: none;
+  padding-right: 50px;
+  height: 15px;
+  margin-top: 5px;
+}
+.banner{
+    font-family: "Poppins", sans-serif  ;
+    background: url('../images/baner2.jpg');
+    width: 1519px;
+    height: 586px;
+    margin-bottom: 200px;
+}
+.banner p{
+    text-align: center;
+    color:#fff;
+    
+}
+.new{
+    font-size: 24px;
+    font-family:  "Poppins", sans-serif;
+    font-weight: 500;
+    padding-top: 200px
+}
+.big{font-family: "Poppins", sans-serif;
+    font-size: 82px;
+    font-weight: 900;
+
+}
+.info{width: 445px;
+    font-size: 16px;
+    padding-left: 537px;
+    ;
+
+}
+.shop{
+    width: 170px;
+    height: 50px;
+    color:#fff;
+    background-color: #ff7004;
+    border: none;
+    margin-left: 580px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.left{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e2e2e2;
+    margin: 20px;
+}
+.right{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e2e2e2;
+    margin-left: 625px;
+}
+    
