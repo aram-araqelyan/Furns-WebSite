@@ -6,27 +6,32 @@
   background-color: #fff;
   font-family: "Poppins", sans-serif;
 }
-.language-usd {
+.top-bar {
   background-color: #2f333a;
   display: flex;
-  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
 }
-.language-usd button {
+
+.top-bar .languages{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.top-bar button {
   background-color: #2f333a;
   border: none;
   color: #fff;
   width: 140px;
   font-size: 14px;
 }
-
-.language-usd p {
+.top-bar p {
   color: #ff7004;
-  padding-right: 650px;
-  padding-left: 150px;
-  padding-top: 10px;
   font-style: oblique;
 }
-.language-usd hr {
+.top-bar hr {
   height: 19px;
   margin: 15px 0px;
   border-color: rgb(71, 66, 66);
@@ -74,6 +79,15 @@
     height: 586px;
     margin-bottom: 200px;
 }
+.banner-content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 .banner p{
     text-align: center;
     color:#fff;
@@ -83,7 +97,6 @@
     font-size: 24px;
     font-family:  "Poppins", sans-serif;
     font-weight: 500;
-    padding-top: 200px
 }
 .big{font-family: "Poppins", sans-serif;
     font-size: 82px;
@@ -92,9 +105,6 @@
 }
 .info{width: 445px;
     font-size: 16px;
-    padding-left: 537px;
-    ;
-
 }
 .shop{
     width: 170px;
@@ -102,7 +112,6 @@
     color:#fff;
     background-color: #ff7004;
     border: none;
-    margin-left: 580px;
     margin-top: 50px;
     font-size: 18px;
 }
@@ -111,13 +120,17 @@
     height: 40px;
     border-radius: 50%;
     background-color: #e2e2e2;
-    margin: 20px;
+    position: absolute;
+    left: 15px;
+    top: 45%;
 }
 .right{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #e2e2e2;
-    margin-left: 625px;
+    position: absolute;
+    right: 15px;
+    top: 45%;
 }
     
